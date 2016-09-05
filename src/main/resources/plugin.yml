@@ -1,0 +1,19 @@
+name: TallcraftDeathMessages
+main: com.tallcraft.tallcraftdeathmessages.TallcraftDeathMessages
+version: 1.0
+author: Sasko
+commands:
+   tcdmreload:
+      description: Reload Tallcraft Death Messages
+      usage: /tcdmreload
+      permission: tallcraftdeathmessages.reload
+      permission-message: You don't have permission.
+      
+permissions:
+    tallcraftdeathmessages.*:
+        description: Gives access to all TallcraftRules commands
+        children:
+            tallcraftdeathmessages.reload: true
+    tallcraftdeathmessages.reload:
+        description: Reload plugin configuration
+        default: op
