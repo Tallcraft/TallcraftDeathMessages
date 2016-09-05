@@ -8,7 +8,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 
 
-
+//test
 public final class TallcraftDeathMessages extends JavaPlugin {
 	public static TallcraftDeathMessages instance;
 	
